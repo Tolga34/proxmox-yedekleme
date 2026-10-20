@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — Proxmox Yedekleme</title>
+  <style>
+    body{margin:0;background:#f4f6fa;color:#172536;font:17px/1.7 system-ui,sans-serif}
+    main{max-width:760px;margin:48px auto;padding:32px;background:white;border:1px solid #dce2eb;border-radius:16px}
+    h1{line-height:1.2}h2{font-size:1.2em;margin-top:28px}a{color:#1559b5}
+    @media(max-width:820px){main{margin:16px;padding:24px}}
+  </style>
+</head>
+<body><main>
+  <a href="index.html">Proxmox Yedekleme ana sayfası</a>
+  <h1>Gizlilik politikası</h1>
+  <p>Uygulama: <strong>Proxmox Yedekleme</strong><br>Son güncelleme: 21 Ekim 2026</p>
+  <h2>Kapsam ve sorumlu</h2>
+  <p>Bu metin, <a href="https://github.com/Tolga34">Tolga34</a> tarafından kendi
+    Proxmox sistemlerinin yedeklenmesi için kullanılan kişisel rclone otomasyonunu açıklar.</p>
+  <h2>Erişilen veriler ve kullanım amacı</h2>
+  <p>Otomasyon; sunucu yapılandırma ve sanal makine yedeklerini, bunlarla ilgili
+    günlük/not dosyalarını ve Google Drive dosya adları, boyutları ve tarihleri gibi
+    dosya bilgilerini işler. Drive erişimi; yedeklerin listelenmesi, aktarılması,
+    gerektiğinde okunması ve saklama politikasına göre eski yedeklerin silinmesi içindir.</p>
+  <p>Google hesabına erişim, hesap sahibinin Google üzerinden verdiği OAuth izniyle
+    sağlanır. rclone, bu erişim için yetkilendirme ve yenileme belirteçlerini kullanır.</p>
+  <h2>Saklama ve güvenlik</h2>
+  <p>Yerel yedekler, işlem günlükleri ve rclone bağlantı ayarları hesap sahibinin
+    yönettiği sistemlerde saklanır. Aktarılan yedekler hesap sahibinin Google Drive
+    hesabında tutulur; mevcut kurulum şifreli rclone hedeflerini kullanır.
+    OAuth belirteçleri ve şifreleme anahtarları bu web sitesinde yayımlanmaz.</p>
+  <h2>Paylaşım ve hizmet sağlayıcıları</h2>
+  <p>Otomasyon, Google kullanıcı verilerini reklam, pazarlama veya model eğitimi
+    amacıyla kullanmaz ve satmaz. Yedeklerin bulutta saklanması için Google Drive
+    hizmeti kullanılır. Veriler bu sayfada açıklanan kişisel yedekleme amacıyla işlenir.</p>
+  <p>Bu bilgi sitesi GitHub Pages üzerinde barındırılır. Siteye analiz veya reklam
+    betiği eklenmemiştir. Barındırma sağlayıcısının işlediği ziyaret bilgileri için
+    <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub gizlilik açıklaması</a>,
+    Google hizmetleri için <a href="https://policies.google.com/privacy">Google gizlilik politikası</a> geçerlidir.</p>
+  <h2>Erişimi kaldırma ve silme</h2>
+  <p>Hesap sahibi, Google hesabının üçüncü taraf bağlantıları bölümünden uygulamanın
+    erişimini kaldırabilir. Bu işlem mevcut yedek dosyalarını kendiliğinden silmez.
+    Drive yedekleri hesap sahibi tarafından silinebilir; yerel dosyalar ve bağlantı
+    ayarları da bunların tutulduğu sistem üzerinden kaldırılabilir. Otomatik saklama
+    kuralları, yapılandırılan sayının üzerindeki eski yedekleri silebilir.</p>
+  <h2>İletişim</h2>
+  <p>Uygulama sahibi ve iletişim bağlantısı: <a href="https://github.com/Tolga34">github.com/Tolga34</a>.</p>
+</main></body>
+</html>
